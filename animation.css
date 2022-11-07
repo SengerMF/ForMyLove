@@ -1,0 +1,14 @@
+.heart{
+    position: fixed;
+    top: -1vh;
+    font-size: 20px;
+    animation: heartrain 2s linear forwards;
+    transition: transform 3s;
+    z-index: 1!important;
+}
+
+@keyframes heartrain{
+    to{
+        transform: translateY(105vh);
+    }
+}
